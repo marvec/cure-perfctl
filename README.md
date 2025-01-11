@@ -8,7 +8,7 @@ __Any contributions are highly appreciated__
 
 Know your enemy (https://www.aquasec.com/blog/perfctl-a-stealthy-malware-targeting-millions-of-linux-servers/).
 
-Check your system with [rkhunter](https://rkhunter.sourceforge.net/) - can be installed as a standard system package.
+Check your system with [rkhunter](https://rkhunter.sourceforge.net/) - can be installed as a standard system package. And with chkrootkit (`chkrootkit -x lkm`).
 
 It is important to note that you need to remove the vulnerability from your system first, otherwise it will keep getting reinfected.
 
