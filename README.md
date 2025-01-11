@@ -10,3 +10,15 @@ This utility works on our Debian 12 machines. Before blindly running it, please 
 The tool reboots the machine abruptly, possibly leaving something in an unpredictable state.
 
 Run as root.
+
+## How it works?
+
+It installs a systemd service that runs before perfctl and moves it to a safe location.
+
+In our case, the executable was `/bin/perfcc`.
+
+We did not find any hook in the libraries, LD preload etc. So this is not covered
+
+You can find the isolated files under `/root/perfctl` afterwards.
+
+__Any contributions are highly appreciated__
